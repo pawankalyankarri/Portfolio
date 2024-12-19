@@ -1,0 +1,46 @@
+.education{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin: auto;
+}
+.education-title h1{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+.education h1 img{
+    width: 80px;
+}
+.details{
+    padding:10px;
+    letter-spacing: 1px;
+
+}
+.details h2{
+    background: linear-gradient(265deg, brown,orange,red);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@media(max-width:768px){
+    .education-title h1{
+        margin-top: 30px;
+        font-size: 50px;
+    }
+    .education h1 img{
+        width: 50px;
+    }
+}
+@media(max-width:576px){
+    .education{
+        width: 95%;
+    }
+}
+
+
+
+
+
