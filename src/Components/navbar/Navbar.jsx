@@ -22,10 +22,10 @@ const Navbar = () => {
             <ul ref={menuRef} className="nav-menu">
                 <img src={cross} onClick={closeMenu} alt="" width={'25px'} className='nav-mob-close' />
                 <li><AnchorLink className='anchor-link'  href='#home' ><p onClick={() => setMenu('home')}>Home</p> </AnchorLink></li>
-                <li><AnchorLink className='anchor-link'  href='#skills' ><p onClick={() => setMenu('skills')}>Skills</p> </AnchorLink></li>
-                <li><AnchorLink className='anchor-link' href='#projects' ><p onClick={() => setMenu('projects')}>Projects</p> </AnchorLink></li>
-                <li><AnchorLink className='anchor-link' href='#education' ><p onClick={() => setMenu('education')}>Education</p> </AnchorLink></li>
-                <li><AnchorLink className='anchor-link' href='#contact' ><p onClick={() => setMenu('contact')}>Contact</p> </AnchorLink></li>
+                <li><AnchorLink className='anchor-link' offset={50}  href='#skills' ><p onClick={() => setMenu('skills')}>Skills</p> </AnchorLink></li>
+                <li><AnchorLink className='anchor-link' offset={50}  href='#projects' ><p onClick={() => setMenu('projects')}>Projects</p> </AnchorLink></li>
+                <li><AnchorLink className='anchor-link' offset={50}  href='#education' ><p onClick={() => setMenu('education')}>Education</p> </AnchorLink></li>
+                <li><AnchorLink className='anchor-link' offset={50}  href='#contact' ><p onClick={() => setMenu('contact')}>Contact</p> </AnchorLink></li>
             </ul>
             {/* <div className="nav-connect">Connect with me</div> */}
         </div>

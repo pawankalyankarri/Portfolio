@@ -6,9 +6,9 @@
     position: fixed;
     background-color: #1F0016;
     padding: 20px 40px;
+    gap:20px;
 }
 .navbar .name{
-   margin-right: 50px;
    font-size: 40px;
    font-weight: 500;
    background:linear-gradient(267deg, skyblue,brown,darkblue);
@@ -48,6 +48,21 @@
     display: none;
     border-radius: 45px;
 }
+@media(max-width:1024px){
+    .navbar .name{
+        font-size: 20px;
+    }
+    .navbar{
+        align-items: center;
+        margin:20px 50px;
+    }
+}
+@media(max-width:853px){
+    .navbar{
+        margin:10px 10px;
+        padding:10px 10px;
+    }
+}
 @media(max-width:768px){
     .navbar{
         margin: 10px 30px;
@@ -63,7 +78,7 @@
         display: block;
         position: relative;
         top: 20px;
-        left:110px;
+        left:0px;
         width: 30px;
     }
     .nav-menu{
@@ -93,6 +108,11 @@
 }
 @media(max-width:576px){
     .nav-menu{
-        height: 30%;
+        height: 50%;
+        width: 50%;
     }
+    .nav-menu li{
+        gap:20px;
+    }
+
 }
