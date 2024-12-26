@@ -72,8 +72,8 @@
 
 }
 @media(max-width:768px){
-    .home.img{
-        margin-top: 120px;
+    .home img{
+        margin-top: 20px;
         width: 260px;
     }
     .home h1{
@@ -87,9 +87,7 @@
         line-height: 32px;
         margin: 10px 0;
     }
-    .home img{
-        margin-top:20px;
-    }
+    
     .home-action{
         gap:16px;
         font-size: 18px;
@@ -97,12 +95,12 @@
         margin-bottom: 50px;
     }
     .home-connect{
-        padding: 20px 30px;
+        padding: 15px 20px;
         border-radius: 40px;
 
     }
     .home-resume{
-        padding: 20px 30px;
+        padding: 15px 20px;
         border-radius: 40px;
     }
 }

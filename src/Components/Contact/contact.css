@@ -119,7 +119,7 @@
       -webkit-text-fill-color: transparent;
     }
     .contact-left h1{
-      font-size: 50px;
+      font-size: 30px;
     }
     /* .contact-left p{
       font-size: 18px;
@@ -144,11 +144,51 @@
       padding:15px 30px;
     }
 }
+/* @media(max-width:853px){
+  .contact-right textarea{
+    width: 350px;
+  }
+  .contact-right input{
+    width: 350px;
+  }
+} */
+@media(max-width:1024px){
+  .contact{
+    align-items: flex-start;
+  }  
+  .contact-right input{
+    width:280px
+  }
+  .contact-right textarea{
+    width: 240px;
+  }
+  .contact-section{
+    gap:50px;
+  }
+  .contact-left{
+    margin-left: 25px;
+  }
+}
 @media(max-width:576px){
   .contact-title h1{
-    font-size: 40px;
+    font-size: 32px;
   }
   .contact-detail .mail{
     font-size: 15px;
   }
+  .contact-right input{
+    width:200px
+  }
+  .contact-right textarea{
+    width: 170px;
+  }
 }
+/* @media(min-width:576px){
+ .contact-right textarea{
+  width:300px;
+ }
+ .contact-right input{
+  width:320px;
+ }
+ 
+} */
