@@ -39,8 +39,13 @@
         margin-top: 30px;
         font-size: 32px
     }
+    .projects{
+        flex-wrap: wrap;
+    }
     .project{
         padding:30px;
+        width: 30%;
+        margin: 5px 15px;
 
     }
 }
@@ -48,6 +53,8 @@
    
     .project{
         padding:20px;
+        width: 35%;
+        margin: 5px 10px;
     }
     .project-container{
         gap:10px;

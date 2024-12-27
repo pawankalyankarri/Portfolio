@@ -1,6 +1,6 @@
 import './home.css'
 import profile from '../../assets/profile.jpg'
-import resume from '../../../public/resume.pdf'
+import resume from '../../../public/pawankalyan_karri.pdf'
 const Home = () => {
     function openResume(){
         window.open(resume)

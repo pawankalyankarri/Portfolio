@@ -5,20 +5,20 @@ const ProjectsData = [
     },
     {
         id:2,
-        name:'To-Do list'
+        name:'weather app'
     },
     {
         id:3,
         name:'Portfolio'
     },
-    // {
-    //     id:4,
-    //     name:'Portfolio'
-    // },
-    // {
-    //     id:5,
-    //     name:'Portfolio'
-    // },
+    {
+        id:4,
+        name:'NewsApp'
+    },
+    {
+        id:5,
+        name:'To-Do list'
+    },
     // {
     //     id:6,
     //     name:'Portfolio'
